@@ -4,6 +4,49 @@
     box-sizing: border-box;
 }
 
+:root{
+    --orange :#ff6900;
+}
+
 img{
     max-width: 100%;
+    max-height: 100%;
+}
+
+.default-spacing{
+    width: 70%;
+    margin: auto;
+}
+
+ul{
+    list-style-type: none;
+    line-height: 70px;
+    width: 25%;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header{
+    width: 100%;
+    background-color: var(--orange);
+    position: fixed;
+    z-index: 9999;
+}
+
+header > div{
+    height: 70px;
+}
+
+div > div{
+    width: 50%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.w-text{
+    color: white;
+    font-size: 1rem;
 }
